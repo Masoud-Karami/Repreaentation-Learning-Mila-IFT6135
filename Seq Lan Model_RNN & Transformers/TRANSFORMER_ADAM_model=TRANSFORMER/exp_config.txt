@@ -1,0 +1,17 @@
+batch_size    20
+code_file    ptb-lm.py
+data    data
+debug    False
+dp_keep_prob    0.35
+emb_size    200
+evaluate    False
+hidden_size    1500
+initial_lr    0.0001
+model    TRANSFORMER
+num_epochs    40
+num_layers    2
+optimizer    ADAM
+save_best    False
+save_dir    TRANSFORMER_ADAM_model=TRANSFORMER_18
+seed    1111
+seq_len    35
